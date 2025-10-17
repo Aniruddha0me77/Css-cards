@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    min-height: 790px;
+    display: flex;
+    flex-direction: column;
+    background: #e66774;
+    background: radial-gradient(circle, rgb(231, 69, 85) 33%, rgba(148, 233, 213, 1) 90%);
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 250px;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    gap: 15px;
+}
+.box img{
+      height: 33%;
+      width: 100%;
+      border-top-left-radius:30px ;
+      border-top-right-radius: 30px;
+}
+.box h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.box p{
+    font-size: smaller;
+    text-align: center;
+    width: 80%;
+
+}
+.newbox{
+    display: flex;
+    justify-content: space-around;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 34%, rgba(63, 94, 251, 1) 30%, rgba(252, 70, 107, 1) 94%);
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+}
+.newbox img{
+    height: 100%;
+    width: 100%;
+}
+
+#click{
+    width: 80%;
+    height: 9%;
+    border: 0px;
+    border-radius: 10px;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    color:azure;
+    font-size: medium;
+    font-weight: 500;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+    
+}
+.leftbox{
+    display: flex;
+    justify-content: space-around;
+}
+.leftbox img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.leftbox p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    color: white;
+}
+.rightbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightbox a{  
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+}
+#back{
+    text-decoration: none;
+
+}
